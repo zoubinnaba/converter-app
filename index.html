@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter App</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1 class="title--princ">Metric/Imperial unit conversion</h1>
+            <input class="input--el" placeholder="Enter number to convert" type="number" name="number" id="number--el">
+            <button type="submit" class="calculate--btn" id="calculate--btn">Calculate</button>
+        </header>
+        <section>
+            <div>
+                <h2>Length (Meter/Feet)</h2>
+                <p id="meter--to-feet"></p>
+            </div>
+            <div>
+                <h2>Volume (Liters/Gallons)</h2>
+                <p id="liter--to--gallons"></p>
+            </div>
+            <div>
+                <h2>Mass (Kilograms/Pounds)</h2>
+                <p id="kilo--to--pound"></p>
+            </div>
+        </section>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

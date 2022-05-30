@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background: linear-gradient(246.26deg, #585DFE 0%, #FB3796 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    letter-spacing: -0.05em;
+    color: #FFFFFF;
+}
+
+.title--princ {
+    padding: 40px;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.title--princ--2 {
+    margin: 20px;
+    font-weight: 800;
+    font-size: 97.5723px;
+}
+
+.input--el {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+.calculate--btn {
+    margin: 5px 0 20px 0;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+section div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+}
+
+section h2 {
+    padding: 20px 0 10px 0;
+    font-weight: 600;
+}
